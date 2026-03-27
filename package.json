@@ -1,5 +1,5 @@
 {
-  "name": "ds-coverage",
+  "name": "@andrewaitken/ds-coverage",
   "version": "0.1.0",
   "description": "Measure design system component adoption across your codebase",
   "license": "MIT",
