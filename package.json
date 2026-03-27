@@ -1,0 +1,36 @@
+{
+  "name": "ds-coverage",
+  "version": "0.1.0",
+  "description": "Measure design system component adoption across your codebase",
+  "license": "MIT",
+  "author": "Andrew Antoshkin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewAntoshkin/ds-coverage"
+  },
+  "homepage": "https://antoshkin.tech/ds-coverage/",
+  "keywords": [
+    "design-system",
+    "adoption",
+    "coverage",
+    "components",
+    "analytics",
+    "audit",
+    "cli"
+  ],
+  "type": "module",
+  "bin": {
+    "ds-coverage": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "coverage": "node bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
